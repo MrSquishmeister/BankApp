@@ -27,6 +27,10 @@ class RegisterActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        try {
+            this.supportActionBar!!.hide()
+        } catch (e: NullPointerException) {
+        }
         binding = ActivityRegisterBinding.inflate(layoutInflater)
         setContentView(binding.root)
 

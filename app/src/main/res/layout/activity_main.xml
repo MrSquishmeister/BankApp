@@ -4,7 +4,41 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FC867AEF"
     tools:context=".MainActivity">
 
+
+    <ImageView
+        android:id="@+id/appImageView"
+        android:layout_width="312dp"
+        android:layout_height="365dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="77dp"
+        android:layout_marginBottom="97dp"
+        app:srcCompat="@drawable/piggybank" />
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="217dp"
+        android:layout_height="167dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="246dp"
+        android:fontFamily="@font/bungee"
+        android:text="Piggy\nBank"
+        android:textAlignment="center"
+        android:textColor="#F8F8F8"
+        android:textSize="60sp" />
+
+    <TextView
+        android:id="@+id/descriptionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/titleTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-20dp"
+        android:text="Save your coins with us"
+        android:textColor="#F8F8F8" />
 
 </RelativeLayout>
