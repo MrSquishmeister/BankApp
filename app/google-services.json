@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "43112186934",
+    "project_id": "bankapp-lee",
+    "storage_bucket": "bankapp-lee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:43112186934:android:e633ebd53e79ee73144497",
+        "android_client_info": {
+          "package_name": "com.lee.bankapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "43112186934-gggtappmkrkpt3946tod7jj1u4mgfipu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_fISSS0G_x0AWNiOvmbYwq7VEAAAQoJU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "43112186934-gggtappmkrkpt3946tod7jj1u4mgfipu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
